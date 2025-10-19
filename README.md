@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# 🎓 Study Group Finder
 
-## Project info
+A **modern, multi-page, responsive frontend website** for a platform that connects students with similar academic interests, goals, and learning difficulties. The website is designed to provide a **smooth, engaging, and futuristic experience** with **glassmorphism UI, blur effects, 3D scroll animations, and subtle motion transitions**.  
 
-**URL**: https://lovable.dev/projects/dfc7226f-ea85-4cbe-8293-0cbf72723723
+This frontend is built to showcase a professional, creative, and interactive design for hackathons, portfolios, or real-world applications.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+### Core Features
+- Multi-page website with smooth navigation transitions  
+- Fully responsive for desktop, tablet, and mobile  
+- User-friendly **Login & Signup** forms with light/dark theme toggle  
+- **Dashboard** with upcoming sessions, active groups, notifications, and leaderboard  
+- **Groups Page**: Browse and join study groups with animated glass cards  
+- **Chat Page**: Real-time chat UI with typing animations and file attachment mock  
+- **Scheduler Page**: Calendar view for study sessions with glowing cards  
+- **Leaderboard Page**: Top learners with animated trophies and hover effects  
+- **Profile Page**: Editable profile with avatar and glassmorphism panels  
+- **Contact/Feedback Page**: Glass input forms with animated buttons  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dfc7226f-ea85-4cbe-8293-0cbf72723723) and start prompting.
+### Design & Animations
+- **Glassmorphism & frosted blur backgrounds**  
+- **3D parallax scroll animations** for immersive experience  
+- **Micro-interactions** on hover for buttons, cards, and links  
+- **Page transitions** with Framer Motion  
+- **Floating navigation dots** for quick scroll  
+- Subtle **particle effects** and gradient accents for modern aesthetic  
 
-Changes made via Lovable will be committed automatically to this repo.
+### Advanced / Optional Features
+- **AI Study Match** animation (mocked)  
+- **Gamification badges & leaderboard** for engagement  
+- **Progress tracker UI** for personal and group performance  
+- **Integration placeholders**: Google Calendar, Zoom/Meet  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🖥️ Pages
+1. **Home / Landing Page** – Hero section with 3D animations, CTA buttons, and floating avatars  
+2. **About Page** – Platform purpose, benefits, and info cards  
+3. **Features Page** – Interactive cards highlighting platform functionalities  
+4. **Dashboard** – Personalized widgets and sidebar navigation  
+5. **Groups Page** – Animated cards for study groups, search & filters, create group modal  
+6. **Chat Page** – Real-time chat UI with message animations  
+7. **Scheduler Page** – Calendar view for scheduling study sessions  
+8. **Leaderboard Page** – Top learners with animated trophy cards  
+9. **Profile Page** – Editable user profile with analytics mock  
+10. **Contact / Feedback Page** – Glass input forms with animated buttons  
+11. **Login & Signup Pages** – Sleek modals with light/dark mode toggle  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎨 Technology Stack
+- **Frontend Framework:** React.js or Next.js  
+- **Styling:** TailwindCSS + custom CSS for glassmorphism & blur effects  
+- **Animations:** Framer Motion (or GSAP) for 3D scroll & motion effects  
+- **Icons & Illustrations:** Heroicons, Lottie (optional)  
+- **Routing:** React Router / Next.js routing  
+- **Optional Mock Integrations:** Google Calendar, Zoom/Meet  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Folder Structure
+/src
+├── components/ # Reusable UI components (Navbar, Footer, Cards, Modals)
+├── pages/ # Multi-page components
+│ ├── Home.jsx
+│ ├── About.jsx
+│ ├── Features.jsx
+│ ├── Dashboard.jsx
+│ ├── Groups.jsx
+│ ├── Chat.jsx
+│ ├── Scheduler.jsx
+│ ├── Leaderboard.jsx
+│ ├── Profile.jsx
+│ ├── Contact.jsx
+│ ├── Login.jsx
+│ └── Signup.jsx
+├── assets/ # Images, icons, animations
+├── styles/ # Tailwind or custom styles
+└── App.jsx # Main app routing & layout
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📐 Design Principles
+- **User-Centered Design:** Focused on student needs and study collaboration  
+- **Creativity & Modern UI:** Glassmorphism, blur, 3D effects, micro-interactions  
+- **Responsiveness:** Works perfectly across devices  
+- **Smooth Performance:** Optimized animations and fast page transitions  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔮 Future Enhancements
+- AI-based study partner matching and recommendations  
+- Real-time collaboration features with file sharing and video call integration  
+- Gamification with badges, achievements, and interactive leaderboards  
+- Advanced analytics and personalized dashboards  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🎯 Goal
+Deliver a **futuristic, highly interactive frontend** for a Study Group Finder platform, demonstrating **modern design, multi-page flow, and smooth animations**. Perfect for **hackathons, portfolios, and real-world prototypes**.  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dfc7226f-ea85-4cbe-8293-0cbf72723723) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📌 How to Run (Frontend Only)
+1. Clone the repository:
+```bash
+git clone https://github.com/username/study-group-finder.git
