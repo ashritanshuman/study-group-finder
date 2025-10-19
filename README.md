@@ -108,4 +108,4 @@ Deliver a **futuristic, highly interactive frontend** for a Study Group Finder p
 ## 📌 How to Run (Frontend Only)
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/study-group-finder.git
+git clone https://github.com/ashritanshuman/study-group-finder.git
