@@ -102,7 +102,7 @@ const Leaderboard = () => {
               className="glass-card text-center glow relative overflow-hidden"
             >
               <div className={`absolute top-0 left-0 right-0 h-2 bg-gradient-to-r ${topLearners[0].gradient}`} />
-              <div className="text-6xl mb-2 mt-2 animate-float">🥇</div>
+              <div className="text-6xl mb-2 mt-2">🥇</div>
               <div className="text-7xl font-bold mb-2 gradient-text">1</div>
               <h3 className="font-bold text-xl mb-1">{topLearners[0].name}</h3>
               <div className="text-3xl font-bold text-primary mb-1">{topLearners[0].points}</div>

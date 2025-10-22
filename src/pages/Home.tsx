@@ -126,7 +126,7 @@ const Home = () => {
             transition={{ delay: 0.7, duration: 1 }}
             className="mt-20 relative"
           >
-            <div className="glass-card max-w-4xl mx-auto p-8 glow animate-float">
+            <div className="glass-card max-w-4xl mx-auto p-8 glow">
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
                   <div className="text-4xl font-bold gradient-text mb-2">10K+</div>
