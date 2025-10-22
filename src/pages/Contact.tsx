@@ -157,7 +157,7 @@ const Contact = () => {
                   transition={{ delay: 0.6, duration: 0.6 }}
                   className="flex items-start gap-4"
                 >
-                  <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500">
+                  <div className="p-3 rounded-xl bg-gradient-to-br from-gray-700 to-gray-500">
                     <MessageCircle className="h-6 w-6 text-white" />
                   </div>
                   <div>

@@ -3,21 +3,21 @@ import { Trophy, Star, TrendingUp, Award } from "lucide-react";
 
 const Leaderboard = () => {
   const topLearners = [
-    { rank: 1, name: "Alice Johnson", points: 2850, badge: "🥇", streak: 42, gradient: "from-yellow-500 to-orange-500" },
-    { rank: 2, name: "Bob Smith", points: 2650, badge: "🥈", streak: 38, gradient: "from-gray-400 to-gray-500" },
-    { rank: 3, name: "Carol Williams", points: 2480, badge: "🥉", streak: 35, gradient: "from-amber-600 to-amber-700" },
-    { rank: 4, name: "David Brown", points: 2320, badge: "🏆", streak: 30, gradient: "from-blue-500 to-cyan-500" },
-    { rank: 5, name: "Emma Davis", points: 2180, badge: "⭐", streak: 28, gradient: "from-purple-500 to-pink-500" },
-    { rank: 6, name: "Frank Miller", points: 2050, badge: "⭐", streak: 25, gradient: "from-green-500 to-emerald-500" },
-    { rank: 7, name: "Grace Wilson", points: 1920, badge: "⭐", streak: 22, gradient: "from-indigo-500 to-purple-500" },
-    { rank: 8, name: "Henry Moore", points: 1800, badge: "⭐", streak: 20, gradient: "from-pink-500 to-rose-500" },
+    { rank: 1, name: "Alice Johnson", points: 2850, badge: "🥇", streak: 42, gradient: "from-gray-800 to-gray-600" },
+    { rank: 2, name: "Bob Smith", points: 2650, badge: "🥈", streak: 38, gradient: "from-gray-700 to-gray-500" },
+    { rank: 3, name: "Carol Williams", points: 2480, badge: "🥉", streak: 35, gradient: "from-gray-600 to-gray-400" },
+    { rank: 4, name: "David Brown", points: 2320, badge: "🏆", streak: 30, gradient: "from-gray-500 to-gray-300" },
+    { rank: 5, name: "Emma Davis", points: 2180, badge: "⭐", streak: 28, gradient: "from-slate-700 to-slate-500" },
+    { rank: 6, name: "Frank Miller", points: 2050, badge: "⭐", streak: 25, gradient: "from-zinc-700 to-zinc-500" },
+    { rank: 7, name: "Grace Wilson", points: 1920, badge: "⭐", streak: 22, gradient: "from-stone-700 to-stone-500" },
+    { rank: 8, name: "Henry Moore", points: 1800, badge: "⭐", streak: 20, gradient: "from-neutral-700 to-neutral-500" },
   ];
 
   const achievements = [
-    { title: "Study Streak", description: "7 days in a row", icon: "🔥", color: "from-orange-500 to-red-500" },
-    { title: "Group Leader", description: "5 groups created", icon: "👑", color: "from-yellow-500 to-orange-500" },
-    { title: "Helpful Hand", description: "50+ answers", icon: "🤝", color: "from-blue-500 to-cyan-500" },
-    { title: "Rising Star", description: "Top 10 this week", icon: "⭐", color: "from-purple-500 to-pink-500" },
+    { title: "Study Streak", description: "7 days in a row", icon: "🔥", color: "from-gray-800 to-gray-600" },
+    { title: "Group Leader", description: "5 groups created", icon: "👑", color: "from-gray-700 to-gray-500" },
+    { title: "Helpful Hand", description: "50+ answers", icon: "🤝", color: "from-gray-600 to-gray-400" },
+    { title: "Rising Star", description: "Top 10 this week", icon: "⭐", color: "from-slate-700 to-slate-500" },
   ];
 
   return (

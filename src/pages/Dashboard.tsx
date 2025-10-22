@@ -12,16 +12,16 @@ import {
 
 const Dashboard = () => {
   const stats = [
-    { icon: Users, label: "Active Groups", value: "5", color: "from-blue-500 to-cyan-500" },
-    { icon: Clock, label: "Study Hours", value: "42", color: "from-purple-500 to-pink-500" },
-    { icon: Trophy, label: "Achievements", value: "12", color: "from-yellow-500 to-orange-500" },
-    { icon: TrendingUp, label: "Progress", value: "87%", color: "from-green-500 to-emerald-500" },
+    { icon: Users, label: "Active Groups", value: "5", color: "from-gray-800 to-gray-600" },
+    { icon: Clock, label: "Study Hours", value: "42", color: "from-gray-700 to-gray-500" },
+    { icon: Trophy, label: "Achievements", value: "12", color: "from-gray-600 to-gray-400" },
+    { icon: TrendingUp, label: "Progress", value: "87%", color: "from-gray-500 to-gray-300" },
   ];
 
   const upcomingSessions = [
-    { title: "Math Study Group", time: "Today, 3:00 PM", members: 5, color: "from-blue-500 to-cyan-500" },
-    { title: "Physics Review", time: "Tomorrow, 10:00 AM", members: 4, color: "from-purple-500 to-pink-500" },
-    { title: "Chemistry Lab Prep", time: "Wed, 2:00 PM", members: 6, color: "from-green-500 to-emerald-500" },
+    { title: "Math Study Group", time: "Today, 3:00 PM", members: 5, color: "from-gray-800 to-gray-600" },
+    { title: "Physics Review", time: "Tomorrow, 10:00 AM", members: 4, color: "from-gray-700 to-gray-500" },
+    { title: "Chemistry Lab Prep", time: "Wed, 2:00 PM", members: 6, color: "from-gray-600 to-gray-400" },
   ];
 
   const notifications = [

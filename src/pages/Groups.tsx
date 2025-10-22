@@ -16,7 +16,7 @@ const Groups = () => {
       type: "Online",
       status: "Active",
       description: "Focused on calculus II and III topics with weekly problem-solving sessions.",
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-gray-800 to-gray-600",
     },
     {
       name: "Physics Fundamentals",
@@ -26,7 +26,7 @@ const Groups = () => {
       type: "Hybrid",
       status: "Active",
       description: "Covering mechanics, thermodynamics, and electromagnetism.",
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-gray-700 to-gray-500",
     },
     {
       name: "Organic Chemistry Lab",
@@ -36,7 +36,7 @@ const Groups = () => {
       type: "In-Person",
       status: "Active",
       description: "Hands-on lab work and reaction mechanism discussions.",
-      gradient: "from-green-500 to-emerald-500",
+      gradient: "from-gray-600 to-gray-400",
     },
     {
       name: "Web Development Bootcamp",
@@ -46,7 +46,7 @@ const Groups = () => {
       type: "Online",
       status: "Active",
       description: "Learning React, Node.js, and full-stack development together.",
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-gray-500 to-gray-300",
     },
     {
       name: "Data Structures & Algorithms",
@@ -56,7 +56,7 @@ const Groups = () => {
       type: "Online",
       status: "Active",
       description: "Preparing for technical interviews and competitive programming.",
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-slate-700 to-slate-500",
     },
     {
       name: "Biology & Anatomy Study",
@@ -66,7 +66,7 @@ const Groups = () => {
       type: "Hybrid",
       status: "Active",
       description: "Medical students preparing for exams together.",
-      gradient: "from-pink-500 to-rose-500",
+      gradient: "from-zinc-700 to-zinc-500",
     },
   ];
 

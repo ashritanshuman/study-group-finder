@@ -11,7 +11,7 @@ const Scheduler = () => {
       group: "Advanced Calculus",
       members: 8,
       type: "video",
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-gray-800 to-gray-600",
     },
     {
       title: "Physics Lab Discussion",
@@ -20,7 +20,7 @@ const Scheduler = () => {
       group: "Physics Fundamentals",
       members: 12,
       type: "in-person",
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-gray-700 to-gray-500",
     },
     {
       title: "Chemistry Review Session",
@@ -29,7 +29,7 @@ const Scheduler = () => {
       group: "Organic Chemistry Lab",
       members: 6,
       type: "video",
-      gradient: "from-green-500 to-emerald-500",
+      gradient: "from-gray-600 to-gray-400",
     },
     {
       title: "Code Review & Practice",
@@ -38,7 +38,7 @@ const Scheduler = () => {
       group: "Web Dev Bootcamp",
       members: 15,
       type: "video",
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-gray-500 to-gray-300",
     },
     {
       title: "Algorithm Practice",
@@ -47,7 +47,7 @@ const Scheduler = () => {
       group: "Data Structures & Algorithms",
       members: 10,
       type: "video",
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-slate-700 to-slate-500",
     },
   ];
 
