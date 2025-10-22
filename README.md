@@ -9,7 +9,6 @@ This frontend is built to showcase a professional, creative, and interactive des
 ## 🚀 Features
 
 ### Core Features
-- Multi-page website with smooth navigation transitions  
 - Fully responsive for desktop, tablet, and mobile  
 - User-friendly **Login & Signup** forms with light/dark theme toggle  
 - **Dashboard** with upcoming sessions, active groups, notifications, and leaderboard  
@@ -74,11 +73,6 @@ This frontend is built to showcase a professional, creative, and interactive des
 - Real-time collaboration features with file sharing and video call integration  
 - Gamification with badges, achievements, and interactive leaderboards  
 - Advanced analytics and personalized dashboards  
-
----
-
-## 🎯 Goal
-Deliver a **futuristic, highly interactive frontend** for a Study Group Finder platform, demonstrating **modern design, multi-page flow, and smooth animations**. Perfect for **hackathons, portfolios, and real-world prototypes**.  
 
 ---
 
