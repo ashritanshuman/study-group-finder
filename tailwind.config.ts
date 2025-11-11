@@ -60,6 +60,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "icon-accent": "hsl(var(--icon-accent))",
       },
       borderRadius: {
         lg: "var(--radius)",

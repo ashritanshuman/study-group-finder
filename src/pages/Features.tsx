@@ -97,7 +97,7 @@ const Features = () => {
                 }}
               />
               <div className={`inline-block p-4 rounded-xl bg-gradient-to-br ${feature.gradient} mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                <feature.icon className="h-8 w-8 text-white" />
+                <feature.icon className="h-8 w-8 text-icon-accent" />
               </div>
               <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
               <p className="text-muted-foreground">{feature.description}</p>

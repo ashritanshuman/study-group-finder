@@ -52,6 +52,8 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 0 0% 10%;
     --sidebar-border: 0 0% 90%;
     --sidebar-ring: 0 0% 30%;
+    
+    --icon-accent: 0 0% 100%;
   }
 
   .dark {
@@ -97,6 +99,8 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 0 0% 15%;
     --sidebar-ring: 0 0% 80%;
+    
+    --icon-accent: 45 100% 60%;
   }
 }
 
