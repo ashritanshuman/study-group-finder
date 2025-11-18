@@ -40,16 +40,16 @@ const Navbar = () => {
             <div className="p-1.5 sm:p-2 rounded-xl bg-gradient-to-br from-primary to-secondary glow-hover">
               <GraduationCap className="h-5 w-5 sm:h-6 sm:w-6 text-primary-foreground" />
             </div>
-            <span className="text-lg sm:text-xl font-bold gradient-text">Study Group Finder</span>
+            <span className="text-lg sm:text-xl font-bold gradient-text">SGF</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
+            {navLinks.slice(0, 5).map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`relative px-3 py-2 transition-colors duration-300 ${
+                className={`relative px-2 py-2 transition-colors duration-300 text-sm whitespace-nowrap ${
                   isActive(link.path)
                     ? "text-primary"
                     : "text-muted-foreground hover:text-foreground"
@@ -66,7 +66,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-2 lg:gap-3">
             <Link to="/notifications">
               <Button variant="ghost" size="icon" className="rounded-full relative">
                 <Bell className="h-5 w-5" />
@@ -84,12 +84,12 @@ const Navbar = () => {
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
             <Link to="/login">
-              <Button variant="outline" className="glass border-primary/50 hover:border-primary">
+              <Button variant="outline" size="sm" className="glass border-primary/50 hover:border-primary">
                 Login
               </Button>
             </Link>
             <Link to="/signup">
-              <Button className="bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+              <Button size="sm" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90">
                 Sign Up
               </Button>
             </Link>
