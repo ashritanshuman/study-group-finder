@@ -61,13 +61,13 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-4 overflow-hidden">
+      <section className="relative pt-32 lg:pt-40 pb-24 lg:pb-32 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-transparent pointer-events-none" />
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
-          className="container mx-auto text-center relative z-10"
+          className="max-w-7xl mx-auto text-center relative z-10"
         >
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -95,7 +95,7 @@ const Home = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto"
           >
             Connect. Collaborate. Grow together.
             <br />
@@ -120,8 +120,8 @@ const Home = () => {
             </Link>
           </motion.div>
 
-          <div className="mt-20 relative">
-            <div className="glass-card max-w-4xl mx-auto p-4 sm:p-8 glow">
+          <div className="mt-24 lg:mt-32 relative">
+            <div className="glass-card max-w-5xl mx-auto p-4 sm:p-8 lg:p-12 glow">
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
                 <div>
                   <div className="text-3xl sm:text-4xl font-bold gradient-text mb-2">10K+</div>
