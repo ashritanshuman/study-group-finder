@@ -24,6 +24,7 @@ import Resources from "./pages/Resources";
 import ProgressPage from "./pages/Progress";
 import Notifications from "./pages/Notifications";
 import ProfileSetup from "./pages/ProfileSetup";
+import AIAssistant from "./pages/AIAssistant";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -88,6 +89,7 @@ const AppContent = () => {
             <Route path="/notifications" element={<ProtectedRoute><PageTransition><Notifications /></PageTransition></ProtectedRoute>} />
             <Route path="/profile-setup" element={<ProtectedRoute><PageTransition><ProfileSetup /></PageTransition></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><PageTransition><Profile /></PageTransition></ProtectedRoute>} />
+            <Route path="/ai-assistant" element={<ProtectedRoute><PageTransition><AIAssistant /></PageTransition></ProtectedRoute>} />
             
             {/* Redirect old auth routes */}
             <Route path="/login" element={<Navigate to="/auth" replace />} />
