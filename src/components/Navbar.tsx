@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Menu, X, Moon, Sun, GraduationCap, Bell, ChevronDown, LogOut, User } from "lucide-react";
+import { Menu, X, Moon, Sun, GraduationCap, Bell, ChevronDown, LogOut, User, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -39,6 +39,7 @@ const Navbar = () => {
     { name: "Matching", path: "/matching" },
     { name: "Resources", path: "/resources" },
     { name: "Progress", path: "/progress" },
+    { name: "AI Assistant", path: "/ai-assistant" },
     { name: "Contact", path: "/contact" },
   ];
 
