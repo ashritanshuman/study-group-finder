@@ -25,6 +25,7 @@ import ProgressPage from "./pages/Progress";
 import Notifications from "./pages/Notifications";
 import ProfileSetup from "./pages/ProfileSetup";
 import AIAssistant from "./pages/AIAssistant";
+import Install from "./pages/Install";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -75,6 +76,7 @@ const AppContent = () => {
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/features" element={<PageTransition><Features /></PageTransition>} />
             <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+            <Route path="/install" element={<PageTransition><Install /></PageTransition>} />
             <Route path="/auth" element={<PageTransition><Auth /></PageTransition>} />
             
             {/* Protected Routes */}
