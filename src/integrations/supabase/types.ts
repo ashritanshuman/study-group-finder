@@ -348,39 +348,7 @@ export type Database = {
       }
     }
     Views: {
-      public_profiles: {
-        Row: {
-          avatar_url: string | null
-          full_name: string | null
-          learning_style: Database["public"]["Enums"]["learning_style"] | null
-          skill_level: Database["public"]["Enums"]["skill_level"] | null
-          subjects: string[] | null
-          university: string | null
-          user_id: string | null
-          year_of_study: string | null
-        }
-        Insert: {
-          avatar_url?: string | null
-          full_name?: string | null
-          learning_style?: Database["public"]["Enums"]["learning_style"] | null
-          skill_level?: Database["public"]["Enums"]["skill_level"] | null
-          subjects?: string[] | null
-          university?: string | null
-          user_id?: string | null
-          year_of_study?: string | null
-        }
-        Update: {
-          avatar_url?: string | null
-          full_name?: string | null
-          learning_style?: Database["public"]["Enums"]["learning_style"] | null
-          skill_level?: Database["public"]["Enums"]["skill_level"] | null
-          subjects?: string[] | null
-          university?: string | null
-          user_id?: string | null
-          year_of_study?: string | null
-        }
-        Relationships: []
-      }
+      [_ in never]: never
     }
     Functions: {
       get_group_member_profile: {
