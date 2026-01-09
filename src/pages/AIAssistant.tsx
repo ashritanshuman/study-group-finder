@@ -1,12 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card } from '@/components/ui/card';
 import { useAIChat } from '@/hooks/useAIChat';
-import { Send, Bot, User, Trash2, Sparkles, Loader2 } from 'lucide-react';
+import { Send, Bot, User, Trash2, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const AIAssistant = () => {
@@ -37,10 +35,8 @@ const AIAssistant = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
-      <Navbar />
-      
-      <main className="flex-1 flex flex-col items-center justify-center container mx-auto px-4 py-20 md:py-24">
+    <div className="min-h-screen flex flex-col pt-20 md:pt-24">
+      <main className="flex-1 flex flex-col items-center justify-center container mx-auto px-4 py-8">
         {/* Interactive Heading */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -216,8 +212,6 @@ const AIAssistant = () => {
           </Card>
         </motion.div>
       </main>
-
-      <Footer />
     </div>
   );
 };
