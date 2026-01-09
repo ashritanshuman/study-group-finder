@@ -87,14 +87,8 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "AI Assistant", path: "/ai-assistant" },
-    { name: "Features", path: "/features" },
     { name: "Dashboard", path: "/dashboard" },
     { name: "Groups", path: "/groups" },
-    { name: "About", path: "/about" },
-    { name: "Matching", path: "/matching" },
-    { name: "Resources", path: "/resources" },
-    { name: "Progress", path: "/progress" },
-    { name: "Contact", path: "/contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -118,7 +112,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-4 xl:gap-6">
-            {navLinks.slice(0, 5).map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
@@ -131,37 +125,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  className="text-sm text-muted-foreground hover:text-foreground px-2"
-                >
-                  More
-                  <ChevronDown className="ml-1 h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent 
-                align="end" 
-                className="w-48 bg-background border-border z-50"
-              >
-                {navLinks.slice(5).map((link) => (
-                  <DropdownMenuItem key={link.path} asChild>
-                    <Link
-                      to={link.path}
-                      className={`w-full cursor-pointer ${
-                        isActive(link.path)
-                          ? "text-primary bg-primary/10"
-                          : "text-foreground"
-                      }`}
-                    >
-                      {link.name}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
           </div>
 
           <div className="hidden md:flex items-center gap-2 lg:gap-3">
